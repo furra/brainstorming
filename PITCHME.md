@@ -147,14 +147,24 @@ Too many features:
 Mean Square Error = 8110663175083914.0
 ---
 @title[Model analysis]
-<h3>Linear coefficients + genre features</h3>
+<h3>Predicting values</h3>
+<img src="images/predicted.png" alt="" style="height: 350px;">
+
+Mean Square Error = 8110663175083914.0
+---
+@title[Model analysis]
+<h3>Movies + genre features</h3>
 <img src="images/coefficients_genre.png" alt="" style="height: 400px;">
+---
+@title[Model analysis]
+<h3>Movies + genre features</h3>
+<img src="images/predicted_genres.png" alt="" style="height: 350px;">
 
 Mean Square Error = 7620100426286874.0
 ---
 @title[Model analysis]
-<h3>Linear coefficients + genres + collection features</h3>
-<img src="images/coefficients_genre_collections.png" alt="" style="height: 400px;">
+<h3>Movies + genres + collection features</h3>
+<img src="images/predicted_genre_collections.png" alt="" style="height: 350px;">
 
 Mean Square Error = 4685249279116433.0
 ---
