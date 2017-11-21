@@ -1,9 +1,7 @@
 @title[Introduction]
 <h2>Movie Analytics</h2>
 
-<img src="images/film-reel.jpeg" alt="" style="
-    height: 300px;
-">
+<img src="images/film-reel.jpeg" alt="" style="height: 300px;">
 
 Felipe Urra - M.Sc. Computer Science
 University of Western Ontario
@@ -12,9 +10,13 @@ University of Western Ontario
 @title[The problem]
 <h3>The Problem</h3>
 
-The global film industry is huge. 
+<p style="
+    text-align: left;
+">The global film industry is huge.</p>
 
-Some statistics:
+<p style="
+    text-align: left;
+">Some statistics:</p>
 
 * USA is the third largest market in the world (behind China and India)
 * About 5800 cinemas in the US as of 2016 
@@ -25,9 +27,9 @@ https://www.statista.com/topics/964/film/
 
 ---
 @title[The problem]
-To predict revenue could be very substantial for movie studios.
+<h3>The Problem</h3>
 
-Decisions:
+To predict revenue could be very substantial for movie studios:
 
 * Budget
 * Marketing
@@ -41,10 +43,12 @@ Decisions:
 
 ---
 @title[The data]
+<h3>The data</h3>
 ![](images/movies_metadata.png) 
 
 ---
 @title[The data]
+<h3>The data</h3>
 ![](images/credits_data.png) 
 
 ---
@@ -52,18 +56,23 @@ Decisions:
 <h3>Data problems</h3>
 Missing values:
 
-* revenue: ~7k of 45k
-* budget: 2k of 7k
+* Revenue: ~7k of 45k
+* Budget: ~2k of 7k
 
 ---
 @title[Scraping]
-![](images/box_office_mojo.png) 
+<h3>Scraping</h3>
+<img src="images/box_office_mojo.png" alt="" style="height: 500px;">
 
 ---
 @title[Join data and Encoding]
+<h3>Join data and Encoding</h3>
 
 * One hot encoding
 * Memory issues
+---
+@title[Join data and Encoding]
+<h3>Join data and Encoding</h3>
 
 Too many features:
 
@@ -75,32 +84,34 @@ Too many features:
 * genres: 20
 * producers: 3858
 * spoken languages: 94
-
 ---
 @title[Basic analysis]
-![](images/popularity_revenue.png) 
+<h3>Popularity VS Revenue</h3>
+<img src="images/popularity_revenue.png" alt="" style="height: 400px;">
 ---
 @title[Basic analysis]
-![](images/runtime_revenue.png)
+<h3>Runtime VS Revenue</h3>
+<img src="images/runtime_revenue.png" alt="" style="height: 400px;">
 ---
 @title[Basic analysis]
-![](images/budget_revenue.png)
----
-@title[Basic analysis]
-![](images/coefficients.png) 
+<h3>Budget VS Revenue</h3>
+<img src="images/budget_revenue.png" alt="" style="height: 400px;">
 ---
 @title[Model analysis]
-![](images/coefficients.png) 
+<h3>Linear coefficients</h3>
+<img src="images/coefficients.png" alt="" style="height: 350px;">
 
 Mean Square Error = 8110663175083914.0
 ---
 @title[Model analysis]
-![](images/coefficients_genres.png)
+<h3>Linear coefficients + genre features</h3>
+<img src="images/coefficients_genres.png" alt="" style="height: 400px;">
 
 Mean Square Error = 7620100426286874.0
 ---
 @title[Model analysis]
-![](images/coefficients_genres_collections.png) 
+<h3>Linear coefficients + genres + collection features</h3>
+<img src="images/coefficients_genres_collections.png" alt="" style="height: 500px;">
 
 Mean Square Error = 4685249279116433.0
 ---
@@ -114,4 +125,9 @@ Mean Square Error = 4685249279116433.0
 @title[Pending tasks]
 <h3>Pending tasks</h3>
 
-*Memory issues
+* Memory issues
+* Nonlinear models
+---
+@title[End]
+<h3>Thanks</h3>
+Questions? Suggestions?
