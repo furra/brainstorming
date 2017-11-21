@@ -4,6 +4,7 @@
 <img src="images/film-reel.jpeg" alt="" style="height: 300px;">
 
 Felipe Urra - M.Sc. Computer Science
+
 University of Western Ontario
 
 ---
@@ -18,7 +19,7 @@ University of Western Ontario
     text-align: left;
 ">Some statistics:</p>
 
-* USA is the third largest market in the world (behind China and India)
+* China, India and USA are the three largest markets in the world
 * About 5800 cinemas in the US as of 2016 
 * Global box office is forecast to generate 50 billion dollars in 2020
 
@@ -114,7 +115,7 @@ Idea: Separate regions for revenue
 * collection (franchise)
 ---
 @title[Encoding]
-<h3>Join data and Encoding</h3>
+<h3>Encoding</h3>
 
 Too many features:
 
@@ -147,13 +148,13 @@ Mean Square Error = 8110663175083914.0
 ---
 @title[Model analysis]
 <h3>Linear coefficients + genre features</h3>
-<img src="images/coefficients_genres.png" alt="" style="height: 400px;">
+<img src="images/coefficients_genre.png" alt="" style="height: 400px;">
 
 Mean Square Error = 7620100426286874.0
 ---
 @title[Model analysis]
 <h3>Linear coefficients + genres + collection features</h3>
-<img src="images/coefficients_genres_collections.png" alt="" style="height: 500px;">
+<img src="images/coefficients_genre_collections.png" alt="" style="height: 400px;">
 
 Mean Square Error = 4685249279116433.0
 ---
