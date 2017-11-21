@@ -29,11 +29,26 @@ https://www.statista.com/topics/964/film/
 @title[The problem]
 <h3>The Problem</h3>
 
+Revenue prediction is an important problem in the movie industry.
+
 To predict revenue could be very substantial for movie studios:
 
 * Budget
 * Marketing
 * Crew
+* $$$$
+
+---
+@title[The solution]
+<h3>The solution(?)</h3>
+
+Use regression over a given set of features.
+
+* Get data
+* Preprocess data
+* Learn from data
+* ????
+* Profit
 
 ---
 @title[The data]
@@ -43,16 +58,16 @@ To predict revenue could be very substantial for movie studios:
 
 ---
 @title[The data]
-<h3>The data</h3>
+<h3>Metadata</h3>
 ![](images/movies_metadata.png) 
 
 ---
 @title[The data]
-<h3>The data</h3>
+<h3>Credits</h3>
 ![](images/credits_data.png) 
 
 ---
-@title[The data problem?]
+@title[Data problems]
 <h3>Data problems</h3>
 Missing values:
 
@@ -66,12 +81,39 @@ Missing values:
 
 ---
 @title[Join data and Encoding]
-<h3>Join data and Encoding</h3>
+<h3>Join data </h3>
 
-* One hot encoding
-* Memory issues
+* No common id between TMDB and BOM.
+
+Idea: Separate regions for revenue
+
+* Countries or regions (almost continents)
+* Even less data
 ---
-@title[Join data and Encoding]
+@title[The data]
+<h3>Features:</h3>
+
+* budget
+* popularity
+* revenue
+* runtime
+* vote_average
+* vote_count
+* language
+---
+@title[The data]
+<h3>Features (cont):</h3>
+
+* cast
+* directors
+* writers
+* producers
+* production_companies
+* genres
+* spoken_languages
+* collection (franchise)
+---
+@title[Encoding]
 <h3>Join data and Encoding</h3>
 
 Too many features:
@@ -118,9 +160,9 @@ Mean Square Error = 4685249279116433.0
 @title[Upcoming tasks]
 <h3>Upcoming tasks</h3>
 
-* Define set of features
+* Define final set of features
 * Use test and validation data
-* Use Linear Regression
+* Apply Linear Regression
 ---
 @title[Pending tasks]
 <h3>Pending tasks</h3>
